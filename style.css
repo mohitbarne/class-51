@@ -1,0 +1,72 @@
+.box1{
+    background-color: aqua;
+    display: flex;
+    justify-content:space-around;
+}
+.box{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+*{
+   
+    font-size: 25px;
+    text-align: center;
+}
+
+.Awards{
+    font-size: 30px;
+    color: brown;
+}
+
+.Name{
+    font-size:50px;
+    font-weight:bold;
+    color: teal;
+}
+
+a:link{
+    color: slateblue;
+}
+
+a:visited{
+    color: slateblue;
+}
+
+.box1{
+    margin-right:30px;
+}
+
+h1{
+    font-size:60px;
+}
+
+.box2{
+    background-color: lavender;
+}
+
+.game{
+    position: relative;
+}
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    font-size:50px;
+    font: bold;
+    color:darkblue;
+    
+}
+
+.game:hover p{
+    opacity:1;
+
+}
+.game:hover img{
+    opacity:0.2;
+}
+
